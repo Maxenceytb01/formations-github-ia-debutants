@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Serve site (Python 3)",
+      "type": "shell",
+      "command": "python -m http.server 8000",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    }
+    ,
+    {
+      "label": "Open index.html (fallback)",
+      "type": "shell",
+      "command": "cmd /c start index.html",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

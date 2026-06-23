@@ -124,6 +124,12 @@ img {
   border-color: rgba(148, 163, 184, 0.22);
 }
 
+.button-ghost {
+  background: transparent;
+  color: #38bdf8;
+  border-color: rgba(56, 189, 248, 0.35);
+}
+
 .hero {
   display: grid;
   align-items: center;
@@ -162,6 +168,21 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+}
+
+.hero-note {
+  margin-top: 1.5rem;
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+
+.hero-note a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.hero-note a:hover {
+  text-decoration: underline;
 }
 
 .hero-visual {
