@@ -1,0 +1,9 @@
+# Node, Python and general files to ignore
+.DS_Store
+Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Git
+.git/
